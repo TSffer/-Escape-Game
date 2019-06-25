@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/BicycleSimulator/Scenes/Menu.unity
+    guid: 404cd4e7a5d1a2e4e864e8d630e6adf4
+  - enabled: 1
+    path: Assets/BicycleSimulator/Scenes/Environment.unity
+    guid: aa34ebf7e46301c468acc201c379649c
   m_configObjects: {}
