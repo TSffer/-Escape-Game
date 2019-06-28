@@ -8,6 +8,7 @@ public class door : MonoBehaviour
     public CollinderBase1 cb1;
     public CollinderBase2 cb2;
 
+    public float time = 50;
     void Start()
     {
         thedoor = GameObject.FindWithTag("SF_Door");
@@ -27,10 +28,11 @@ public class door : MonoBehaviour
 	    thedoor.GetComponent<Animation>().Play("close");
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        
-        if(cb1._collinder == true && cb2._collinder == true)
+        time -= Time.deltaTime;
+
+        if (cb1._collinder == true && cb2._collinder == true && time >= 0)
         {
             Debug.Log(cb1._collinder + "    " + cb2._collinder);
             OpenDoor();
