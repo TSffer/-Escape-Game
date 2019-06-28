@@ -13,7 +13,7 @@ public class PlayerMotor : MonoBehaviour
 
     private float distance;
     private Text txt;
-    public float time = 50;
+    public float time = 200;
 
     void Start()
     {
@@ -35,7 +35,7 @@ public class PlayerMotor : MonoBehaviour
     void Update()
     {
         time -= Time.deltaTime;
-        txt.text = "DISTANCIA: " + (int)distance + "m | VELOCIDAD: " + velocity + " km/h | TIEMPO RESTANTE: " + time.ToString("f0")+ " s" ;
+        txt.text = "DISTANCIA: " + (int)distance + "m | VELOCIDAD: " + velocity + " km/h | TIEMPO RESTANTE : " + time.ToString("f0")+ " s" ;
         if(time <= 0)
         {
             txt.text = "HAS PERDIDO";

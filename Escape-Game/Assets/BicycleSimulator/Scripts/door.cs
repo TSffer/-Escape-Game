@@ -8,7 +8,7 @@ public class door : MonoBehaviour
     public CollinderBase1 cb1;
     public CollinderBase2 cb2;
 
-    public float time = 50;
+    public float time = 200;
     void Start()
     {
         thedoor = GameObject.FindWithTag("SF_Door");
