@@ -3,14 +3,19 @@ Projecto final para IHC con realidad virtual, multijugador controlado por una bi
 # Descripción
 El objetivo de este proyecto es desarrollar un juego multijugador, en el cual ambos manejaran una bicicleta virtual, en un ambiente donde tienen que alcanzar un objetivo cada uno, con un tiempo limite, al realizar dicha tarea ambos podrán cruzar al siguiente nivel porque la puerta se habrá abierto. Los jugadores harán uso de diferente plataformas uno de ellos tendrá que manejar una bicicleta fija real implementada con sensores que controlara la velocidad, el freno y las direcciones que el usuario decida, para ver el entorno virtual se le dará un casco o un visor. El otro jugador mediante una aplicación descargada en su celular android podrá manejar mediante el giroscopio del celular, la velocidad y la dirección de la bicicleta virtual. Ambos contaran con un mini mapa el cual les indicara su posición actual y los objetivos a conseguir.
 
-![Bicicleta conectada con arduino](https://github.com/TSffer/-Escape-Game/blob/master/bike.jpeg)
+
 
 # Herramientas:
 Unity3D: Entorno de desarrollo.Android  
 
 SDK:  Es  el  software  utilizado  para  realizar  lacompilacion  en  dispositivos  Android.  Unity  lo  utilizapara la compilaci ́on desde su framework.GoogleVRForUnity: Software incluido en Unity que ge-nera  la  vision  en  un  entorno  virtual  desde  dos  camarasseparadas en la distancia adecuada para realidad virtual.Permite realizar pruebas desde el editor de Unity.
 
-Environment Low Poly Assets: Desde el Asset Store deUnity, se descargo componentes  en tres dimensiones dearboles , rocas, etc;ArduinoMouse inal ́ambrico.
+Environment Low Poly Assets: Desde el Asset Store deUnity, se descargo componentes  en tres dimensiones dearboles , rocas, etc;
+
+Arduino.
+
+Mouse inalambrico.
+![Bicicleta conectada con arduino](https://github.com/TSffer/-Escape-Game/blob/master/bike.jpeg)
 
 # Modelo:
 
