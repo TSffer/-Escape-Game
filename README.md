@@ -15,6 +15,8 @@ Environment Low Poly Assets: Desde el Asset Store deUnity, se descargo component
 Arduino.
 
 Mouse inalambrico.
+
+
 ![Bicicleta conectada con arduino](https://github.com/TSffer/-Escape-Game/blob/master/bike.jpeg)
 
 # Modelo:
